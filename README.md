@@ -50,6 +50,9 @@ http://localhost:8000/polls/
 <code>docker exec -it 83ea954d9b5a python3 manage.py runserver 0.0.0.0:8000</code><br>
 <code>docker stop f77d93571bcc</code><br>
 
+http://0.0.0.0:8000/
+http://0.0.0.0:8000/polls
+
 
 
 # docker push
