@@ -17,6 +17,6 @@ RUN pip install --upgrade pip
 RUN git clone https://github.com/gellanyhassan0/gellany_django.git ./
 
 RUN pip install -r ./requirements.txt
-#CMD [ "python3", "./gellany_tools/gellany_tools.py", "-to", "nmap", "-ta", "192.168.1.1", "-mo", "single", "-ar1", "p22,443"]
-CMD [ "python3", "./gellany_django.py"]
+#CMD [ "python3", "./manage.py", runserver", "0.0.0.0:8000"]
+
 CMD python3 -c "import signal; signal.pause()"
