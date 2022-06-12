@@ -55,7 +55,7 @@ http://localhost:8000/polls/
 # docker push
 <code>docker login --username username</code><br>
 <code>docker image list</code><br>
-<code>docker tag a2ac10640f5b gellany/gellany_tools</code><br>
+<code>docker tag a2ac10640f5b gellany/gellany_django</code><br>
 <code>ddocker push gellany/gellany_django:latest</code><br>
 
 # docker image remove all
