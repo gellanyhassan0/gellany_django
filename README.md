@@ -42,7 +42,26 @@ Page not found?
 
 http://localhost:8000/polls/
   
-    
+# docker deploy
+#/home/go/ = your path your already download git folder in it<br>
+<code>docker image build -t gellany_django /home/go/gellany_django</code><br>
+<code>docker run -it -d gellany_django -p 8000:8000</code><br>
+<code>docker ps</code><br>
+<code>docker exec -it 83ea954d9b5a python3 manage.py runserver 0.0.0.0:8000</code><br>
+<code>docker stop f77d93571bcc</code><br>
+
+
+
+# docker push
+<code>docker login --username username</code><br>
+<code>docker image list</code><br>
+<code>docker tag a2ac10640f5b gellany/gellany_tools</code><br>
+<code>ddocker push gellany/gellany_django:latest</code><br>
+
+# docker image remove all
+<code>docker images rm -a</code><br>
+
+
     
 
 
