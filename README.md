@@ -78,7 +78,7 @@ http://0.0.0.0:8000/polls
 # docker image remove all
 <code>docker image prune --all</code><br>
 
-# docker system remove all
+# docker system Remove unused data
 <code>docker system prune --force</code><br>
 
 
