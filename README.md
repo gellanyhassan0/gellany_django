@@ -1,5 +1,5 @@
 # gellany_django
-simple django after polls
+simple django after polls<br>
 https://docs.djangoproject.com/en/4.0/intro/tutorial01/
 
 
