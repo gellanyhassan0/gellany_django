@@ -77,7 +77,7 @@ http://0.0.0.0:8000/polls
 
 # docker image remove all
 <code>docker image list|awk '{print $3}'|xargs -I z docker rmi --force z</code><br>
-<code>docker image</code><br>
+<code>docker image list</code><br>
 
 # docker system Remove unused data
 <code>docker system prune --force</code><br>
