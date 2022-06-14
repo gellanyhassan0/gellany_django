@@ -49,10 +49,13 @@ http://localhost:8000/polls/
 <code>docker run --publish 8000:8000 -it -d gellany_django</code><br>
 <code>docker ps</code><br>
 <code>docker exec -it 83ea954d9b5a python3 manage.py runserver 0.0.0.0:8000</code><br>
-<code>docker stop f77d93571bcc</code><br>
 
 http://0.0.0.0:8000/
 http://0.0.0.0:8000/polls
+
+<code>docker stop f77d93571bcc</code><br>
+<code>docker ps</code><br>
+
 
 # docker pull direct
 #/home/go/ = your path your already download git folder in it<br>
