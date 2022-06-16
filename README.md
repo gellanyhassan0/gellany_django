@@ -75,7 +75,7 @@ http://0.0.0.0:8000/polls
 <code>docker tag a2ac10640f5b gellany/gellany_django</code><br>
 <code>docker push gellany/gellany_django:latest</code><br>
 
-# docker image remove
+# docker image list removed
 <code>docker images rm </code><br>
 
 # docker image remove all
